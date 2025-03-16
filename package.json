@@ -1,0 +1,28 @@
+{
+  "name": "aqa-playlistapp",
+  "version": "1.0.0",
+  "description": "UI_Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelkrif/AQA-PlayListApp.git"
+  },
+  "keywords": [
+    "aqa",
+    "tests",
+    "ui",
+    "playlist"
+  ],
+  "author": "Mykola Mironyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelkrif/AQA-PlayListApp/issues"
+  },
+  "homepage": "https://github.com/kelkrif/AQA-PlayListApp#readme",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
