@@ -1,38 +1,43 @@
-# AQA-PlayListApp
-automated QA tests
+# AQA-PlayListApp Automated QA Tests
 
-Tests are stored in "cypress/e2e/"
-Configuration file: "cypress.config.js", "cypress.config.js"
+This repository contains automated tests for the PlayListApp application using Cypress.
 
-----------------------------------
-1) Install Tools
+## Test Structure
+- Tests are stored in `cypress/e2e/`
+- Configuration files: `cypress.config.js`, `package.json`
 
-1.1 Install Node.js (Version: v22.14.0)
-1.2 Install Git
-1.3 Visual Code
-1.2 Instalation check by commands:
-> node -v
-> npm -v
-> code -v
-> git --version
+## Setup Instructions
+
+### 1. Install Required Tools
+- Install Node.js (Version: v22.14.0)
+- Install Git
+- Install Visual Studio Code (optional)
+- Verify installation with these commands:
+node -v
+npm -v
+code -v
+git --version
+
 If versions appear, everything is fine.
-----------------------------------
-2) Create & Navigate to the project's root folder
 
-2.1 Open terminal/command prompt
-2.2 Clone the repository: git clone <repository link>
-2.3 Navigate to project folder where you clone repository: cd <project folder name>
-2.4 Make sure the project has a "package.json" & "cypress.config.js"
-----------------------------------
-3) Install dependecies
+### 2. Get the Repository
+1. Open terminal/command prompt
+2. Clone the repository: `git clone <repository link>`
+3. Navigate to project folder where you clone repository: `cd <project folder name>`
+4. Make sure the project has a "package.json" & "cypress.config.js"
 
-3.1 Run command: npm install
-----------------------------------
-4) Run test by command in terminal:
-> npx cypress run
-or open UI menu:
-4.1 npx cypress open
-4.2 Select e2e
-4.3 choose prefered browser
-4.4 Run tests
+### 3. Install Dependencies
+1. Run command: `npm install`
 
+### 4. Run Tests
+You can run tests in two ways:
+
+#### Headless Mode (Command Line)
+npx cypress run
+
+#### UI Mode
+npx cypress open
+Then:
+1. Select E2E Testing
+2. Choose your preferred browser
+3. Run tests from the Cypress test runner interface
